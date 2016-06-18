@@ -315,12 +315,20 @@ h1 {
 
 h1.site-title a {
 	font-family: "Maybe Maybe Not"!important;
+}
 
+.freeShipping {
+	background-color: #704194;
 }
 
 #header-social {
 	height: 25px;
 	border-bottom: 1px solid lightgray;
+	padding: 3px 30px;
+}
+#header-social > div > a {
+	margin-left: 10px;
+	font-size: 1em;
 }
 
 h1.site-title {
@@ -1440,6 +1448,14 @@ article .entry-footer span:first-child {
     
 }
 
+.metaslider {
+	margin-top: -1px!important;
+}
+
+.buttons > a:hover {
+	color: white!important;
+}
+
 .comment-author {
     float: left;
     padding: 4px 0 0;
@@ -1496,6 +1512,70 @@ article .entry-footer span:first-child {
 .post-password-required input {
     max-width: 280px;
     margin: 0 5px;
+}
+
+.coupon > .input-text {
+	width: 40%!important;
+}
+
+.maincontainer {
+	position: absolute;
+	top: 0;
+	margin-top: calc(25% - 10px);
+	left: 0;
+	padding: 5px;
+	width: 100%;
+	text-align: center;
+}
+
+.main-who {
+	text-align: center;
+	border-bottom: 1px solid lightgray;
+	padding-bottom: 15px;
+}
+
+.maincontainer a {
+	margin: 0!important;
+}
+
+.maincontainer h2 {
+	font-size: 1.3em;
+	letter-spacing: 2px;
+	color: white;
+	line-height: 1.8em;
+	font-family: "Maybe Maybe Not"!important;
+}
+
+.home-boxes {
+	height: 200px;
+	text-align: center;
+	padding: 2em;
+	
+}
+
+.home-all-boxes {
+	border-bottom: 1px solid lightgray;
+	padding-bottom: 2em;
+}
+.home-all-boxes > div {
+	margin: 0!important;
+	padding: 0!important;
+}
+
+.home-boxes > div {
+	border: 1px solid lightgray;
+	width: 100%;
+	height: 100%;
+	padding: 2em;
+}
+
+.home-boxes > div > div {
+	margin: 0!important;
+	padding: 0!important;
+}
+.home-boxes > div > div > div {
+	margin: 0!important;
+	padding: 0!important;
 }
 
 /*--------------------------------------------------------------
@@ -1850,7 +1930,7 @@ input[type="submit"],
 .main-navigation li.current-menu-ancestor > a,
 .main-navigation li.current_page_ancestor > a,
 .main-navigation button,
-.wpcf7-submit {
+.wpcf7-submit, .main-container a.button {
     background: inherit;
     background-color: #29a6e5;
 }
@@ -1863,6 +1943,7 @@ input[type="submit"],
 .woocommerce-page ul.products li.product .onsale:after {
     border-right: 4px solid #29a6e5;
 }
+
 
 a:hover,
 .widget-area .widget a:hover,
@@ -1908,7 +1989,7 @@ input[type="submit"],
 .woocommerce #review_form #respond .form-submit input:hover,
 .woocommerce-page #review_form #respond .form-submit input:hover,
 .woocommerce-cart .wc-proceed-to-checkout a.checkout-button:hover,
-.wpcf7-submit:hover {
+.wpcf7-submit:hover, .main-container a.button {
     background: inherit;
     background-color: #266ee4;
 }
